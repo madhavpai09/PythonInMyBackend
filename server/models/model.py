@@ -1,6 +1,6 @@
 from sqlalchemy import Column, Integer, String, Float, DateTime, Boolean
 from sqlalchemy.sql import func
-from database import Base
+from .database import Base  # Import Base from database.py
 
 class RideRequest(Base):
     """Model for ride requests in your Velo app"""
