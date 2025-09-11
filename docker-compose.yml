@@ -17,7 +17,7 @@ services:
     ports:
       - "8000:8000"
     environment:
-      - DATABASE_URL=postgresql://miniuber_user:miniuber_pass@postgres:5432/miniuber_db
+      - DATABASE_URL=postgresql://postgres=postgres@postgres:5432/miniuber_db
       - USE_POSTGRES=true
     depends_on:
       - postgres
