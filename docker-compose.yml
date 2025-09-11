@@ -4,9 +4,9 @@ services:
   postgres:
     image: postgres:15
     environment:
-      POSTGRES_DB: miniuber_db
-      POSTGRES_USER: miniuber_user
-      POSTGRES_PASSWORD: miniuber_pass
+      POSTGRES_DB: mini_uber_db
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
     ports:
       - "5432:5432"
     volumes:
